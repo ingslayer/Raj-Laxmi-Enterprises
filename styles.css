@@ -1,16 +1,18 @@
 #header-sec {
-  background-color: #F90716;
+  background-color: #8a373c;
   text-align: center;
   color: white;
   padding-top: 3%;
   padding-bottom: 5%;
 }
+
 #header-sec h1 {
   padding-top: 4%;
   font-family: "Monoton", cursive;
   font-size: 450%;
   font-weight: 500;
 }
+
 #header-sec img {
   width: 15%;
   /* border: 5px solid rgb(105, 9, 9); */
@@ -22,95 +24,112 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-    /* background-color: #e4f9ff; */
-    /* background-color: #FFE194; */
-    background-color: #FFF8E5;
-    align-content: center;
-    /* padding: 4rem 15rem 2rem 20rem; */
-    margin-top: 3rem;
+  /* background-color: #e4f9ff; */
+  /* background-color: #FFE194; */
+  background-color: #FFF8E5;
+  align-content: center;
+  /* padding: 4rem 15rem 2rem 20rem; */
+  margin-top: 3rem;
 }
+
 #owner img {
-    width: 20%;
-    float: left;
-    margin-right: 2rem;
+  width: 20%;
+  float: left;
+  margin-right: 2rem;
 }
+
 #sponsers {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 3rem 5rem 0rem; 
-    overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3rem 5rem 0rem;
+  overflow: auto;
 }
+
 #sponseredBy {
   display: inline-block;
   margin: 0 auto;
 }
+
 #poweredBy {
   display: inline-block;
   margin: auto;
 }
+
 #sponseredBy h1 {
   padding-bottom: 3rem;
 }
+
 #sponseredBy img,
 #poweredBy img {
   max-width: 100%;
   height: auto;
   width: auto;
 }
-#products{
-    /* background-color: #e4f9ff;  */
-    background-color: #FF2442;
+
+#products {
+  /* background-color: #e4f9ff;  */
+  background-color: #FF2442;
 }
-#footer{
+
+#footer {
   /* background-color: #064663;  */
   /* background-color:#F90716; */
   background-color: #420516;
-  color:white;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
 
 }
-.flex-container{
+
+.flex-container {
   display: flex;
   flex-wrap: wrap;
 }
-.foot{
+
+.foot {
   display: inline-block;
   overflow: auto;
   width: 20%;
   margin: 1rem auto;
 }
-.foot ul li{
+
+.foot ul li {
   text-decoration: none;
 }
-#mapEmbeded{
+
+#mapEmbeded {
   height: 5rem;
   width: 5rem;
 }
-.foot{
+
+.foot {
   display: inline-block;
 }
+
 .iconsProp {
   display: inline-block;
   width: 1.5rem;
   margin-right: 1rem;
 }
+
 #carosel {
   margin: 2rem auto;
   width: 75%;
   padding: 0 2rem;
 }
+
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
   color: white;
   font-size: 1.5rem;
 }
-html{
+
+html {
   margin: 0;
-  padding:0;
+  padding: 0;
   size: 0;
 }
