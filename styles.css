@@ -32,19 +32,35 @@
   margin-top: 3rem;
 }
 
+.sponser {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 100px; */
+  margin: 2rem auto 2rem auto;
+}
+
+.card1,
+.card2 {
+  align-items: center;
+  text-align: center;
+  /* height: 20rem; */
+  /* width: 15rem; */
+  padding: 1rem;
+}
+
+.sponser-img1 {
+  padding: 60px;
+}
+
 #owner img {
   width: 20%;
   float: left;
   margin-right: 2rem;
 }
 
-#sponsers {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 3rem 5rem 0rem;
-  overflow: auto;
-}
 
 #sponseredBy {
   display: inline-block;
