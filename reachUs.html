@@ -41,26 +41,26 @@
         </div>
     </section>
     <section id="reachUs">
-        <form>
+        <form action="mailto:utkarshpan.100@gmail.com" method="POST" enctype="text/plain"> 
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row lg-4 md-6">
                 <div class="col lg-4 md-6">
                     <div class="form-outline">
-                        <label class="form-label" for="form6Example1">First name</label>
-                        <input type="text" id="form6Example1" class="form-control" />
+                        <label class="form-label" for="FirstName">First name</label>
+                        <input type="text" id="FirstName" name="SenderFirstName" class="form-control" />
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-outline">
-                        <label class="form-label" for="form6Example2">Last name</label>
-                        <input type="text" id="form6Example2" class="form-control" />
+                        <label class="form-label" for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="SenderLastName" class="form-control" />
                     </div>
                 </div>
                 <div class="col">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form6Example5">Email</label>
-                        <input type="email" id="form6Example5" class="form-control" />
+                        <label class="form-label" for="emailId">Email</label>
+                        <input type="email" id="emailId" name="SenderEmail" class="form-control" />
                     </div>
                 </div>
             </div>
@@ -69,58 +69,27 @@
                 <div class="col">
                     <!-- Text input -->
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form6Example4">City</label>
-                        <input type="text" id="form6Example4" class="form-control" />
+                        <label class="form-label" for="city">City</label>
+                        <input type="text" id="city" name="SenderCity" class="form-control" />
                     </div>
                 </div>
                 <div class="col">
                     <!-- Text input -->
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form6Example4">State</label>
-                        <input type="text" id="form6Example4" class="form-control" />
+                        <label class="form-label" for="State">State</label>
+                        <input type="text" id="State" name="SenderState" class="form-control" />
                     </div>
                 </div>
             </div>
 
             <!-- Message input -->
             <div class="form-outline mb-4">
-                <textarea class="form-control" id="form6Example7" rows="4"
+                <textarea class="form-control" id="mssg" name="SenderMessage" rows="4"
                     placeholder="Write your Review Here..."></textarea>
             </div>
             <!-- Submit button -->
             <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
         </form>
-        <!-- <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputFname">FirstName</label>
-                <input type="text" class="form-control" id="inputFname">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputLName">LastName</label>
-                <input type="text" class="form-control" id="inputLName">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <input type="text" class="form-control" id="inputState">
-              </div>
-              <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
-              </div>
-              <div class="form-outline w-75">
-                <textarea class="form-control" id="reviewText" rows="4"></textarea>
-                <label class="form-label" for="reviewText" placeholder="Write your Review Here ...">Message</label>
-              </div>
-             
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form> -->
     </section>
     <section class="container-fluid  text-light pt-5 pb-4 footerbg">
         <div class="container footer ">
